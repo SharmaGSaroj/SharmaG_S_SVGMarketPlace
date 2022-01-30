@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald" sans-serif;
+}
+
+nav {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  position: sticky;
+  font-size: large;
+  cursor: pointer;
+}
+.logo {
+  width: auto;
+  height: 170px;
+  margin: 20px 0;
+  cursor: pointer;
+  width: min(50vw, 200px);
+  margin-top: 5px;
+}
+
+nav ul {
+  background: #000;
+  width: 100%;
+  margin-top: 5px;
+  float: inline-end;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 20px 30px;
+}
+nav li {
+  color: #fff;
+  text-decoration: none;
+}
+nav li:hover {
+  color: blue;
+}
+.hidden {
+  display: none;
+}
+.heading {
+  font-size: 40px;
+  color: black;
+  text-align: center;
+  font-weight: 500;
+}
+embed {
+  width: 500px;
+  height: 500px;
+}
+.image {
+  display: flexbox;
+  align-self: center;
+  padding-top: 50px;
+  justify-content: space-evenly;
+}
+footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(85, 56, 56);
+  height: auto;
+  width: 100%;
+  padding-top: 50px;
+  color: #fff;
+}
+.footer-first {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-first h3 {
+  font-size: 2.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-first p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  color: whitesmoke;
+}
+.footer-second {
+  background: #000;
+  width: 100%;
+  padding: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.footer-second p {
+  float: left;
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.footer-second span {
+  text-transform: uppercase;
+  opacity: 0.4;
+  font-weight: 200;
+}
+.menu {
+  float: right;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu ul li {
+  padding-right: 10px;
+  display: block;
+}
+
+.menu ul li a {
+  color: #cfd2d6;
+  text-decoration: none;
+}
+.menu ul li a:hover {
+  color: white;
+}
