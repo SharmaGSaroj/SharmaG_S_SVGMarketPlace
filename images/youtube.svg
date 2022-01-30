@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="youtube" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 612 792" style="enable-background:new 0 0 612 792;" xml:space="preserve">
+<style type="text/css">
+	#youtube:hover .st0{
+		fill:white;
+		transition: all 0.5s;
+  	
+	}
+	#youtube:hover .st1{
+		fill:#FF0000	;
+		transition: all 0.3s;
+	}
+	.st0{fill:black}
+	.st1{fill:black}
+	</style>
+	<script>
+	let theyoutube = document.querySelector("#youtube")
+
+	function logMyID() {console.log(this.id);}
+
+	theyoutube.addEventListener("mouseover",logMyID);
+</script>
+<path class="st0" d="M56,489.6V251.1c0-71.9,58.8-130.7,130.7-130.7h238.5c71.9,0,130.7,58.8,130.7,130.7v238.5
+	c0,71.9-58.8,130.7-130.7,130.7H186.7C114.8,620.6,56,561.6,56,489.6z"/>
+<path class="st1" d="M442.9,333.7c0-33.1-26.8-60.1-60.1-60.1H229.2c-33.1,0-60.1,26.8-60.1,60.1v71.5c0,33.1,26.8,60.1,60.1,60.1
+	h153.5c33.1,0,60.1-26.8,60.1-60.1L442.9,333.7L442.9,333.7z M352.6,374.8L283.9,409c-2.7,1.5-11.8-0.4-11.8-3.6v-70
+	c0-3.2,9.3-5.1,12-3.6l66,35.8C352.6,369.3,355.3,373.3,352.6,374.8z"/>
+</svg>
