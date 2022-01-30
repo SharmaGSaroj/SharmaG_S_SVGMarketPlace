@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Linkedin" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 612 792" style="enable-background:new 0 0 612 792;" xml:space="preserve">
+<style type="text/css">
+	#Linkedin:hover .cls-1{
+		fill:white;
+		transition: all 0.3s;
+  		box-sizing: border-box;
+  		max-width: 100%;
+	}
+	#Linkedin:hover .cls-2{
+		fill:#0E76A8;
+		transition: all 0.3s;
+  		box-sizing: border-box;
+  		max-width: 100%;
+	}
+	.cls-1{fill:black}
+	.cls-2{fill:black}
+	</style>
+<script>
+	let theLinkedin = document.querySelector("#Linkedin")
+
+	function logMyID() {console.log(this.id);}
+
+	theLinkedin.addEventListener("mouseover",logMyID);
+</script>
+<g>
+	<path class="cls-1" d="M56,515.2V276.8C56,204.9,114.9,146,186.8,146h238.3c71.9,0,130.8,58.9,130.8,130.8v238.3
+		c0,71.9-58.9,130.8-130.8,130.8H186.8C114.9,646,56,587.1,56,515.2z"/>
+	<path class="cls-2" d="M201.2,349.4h48.3V505h-48.3V349.4z M225.4,272c15.6,0,28,12.6,28,28s-12.6,28-28,28c-15.6,0-28-12.6-28-28
+		C197.2,284.6,209.8,272,225.4,272"/>
+	<path class="cls-2" d="M279.9,349.4h46.3v21.2h0.6c6.4-12.2,22.2-25.2,45.7-25.2c48.9,0,57.9,32.2,57.9,74.1v85.3h-48.3v-75.7
+		c0-18-0.4-41.2-25.2-41.2c-25.2,0-29,19.6-29,40v76.9h-48.3V349.4H279.9z"/>
+</g>
+</svg>
